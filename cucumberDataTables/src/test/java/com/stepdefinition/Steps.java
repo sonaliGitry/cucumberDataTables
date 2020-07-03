@@ -26,6 +26,8 @@ public class Steps {
 		driver.manage().window().maximize();
 
 		driver.get("http://demowebshop.tricentis.com/login");
+		
+		System.out.print("from  second branch");
 	}
 
 	@When("^: user enters username and password$")
